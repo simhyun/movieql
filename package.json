@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --exec babel-node index.js"
+    "start": "nodemon --exec babel-node index.js",
+    "build": "babel-node index.js",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "babel-node": "0.0.1-security",
+    "build": "^0.1.4",
     "gh-pages": "^3.1.0",
     "graphql-yoga": "^1.18.3",
     "typescript": "^4.1.3",

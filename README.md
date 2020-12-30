@@ -1,6 +1,13 @@
-# yarn 설치 : https://classic.yarnpkg.com/en/docs/install#windows-stable
+# GraphQL로 영화 API 만들기
+
+'''
+# 강의 URL : https://nomadcoders.co/graphql-for-beginners/lobby
 
 # GIT URL : https://github.com/simhyun/movieql.git
+
+https://simhyun.github.io/movieql/
+
+# yarn 설치 : https://classic.yarnpkg.com/en/docs/install#windows-stable
 
 # ------------------------------------------
 # 강의 순서
@@ -27,4 +34,5 @@
 
 # git status
 # git remote
+'''
 
